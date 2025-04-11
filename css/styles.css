@@ -275,7 +275,7 @@ img {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-
+  padding-left: 0;
   row-gap: 48px;
   column-gap: 24px;
   margin-bottom: 120px;
