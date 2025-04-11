@@ -124,6 +124,7 @@ ul {
   margin: 0 auto;
 
   margin-bottom: 48px;
+  max-width: 496px;
 }
 .solutions-button {
   background: #4d5ae5;
@@ -172,8 +173,6 @@ ul {
   justify-content: flex-start;
 
   gap: 24px;
-
-  margin-bottom: 106px;
 }
 .benefits-list-item {
   width: calc(100%-72) / 4;
@@ -212,7 +211,6 @@ ul {
 .team-list {
   list-style: none;
   display: flex;
-  align-items: center;
   margin-top: 72px;
   padding-bottom: 120px;
   gap: 24px;
@@ -306,6 +304,11 @@ ul {
 }
 .lastinfo {
   background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  padding: 100px 0;
 }
 .lastinfo-logo {
   font-family: "Raleway", sans-serif;
@@ -316,6 +319,7 @@ ul {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 .lastinfo-logo-web {
   color: #f4f4fd;
@@ -327,4 +331,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+
+  max-width: 264px;
 }
