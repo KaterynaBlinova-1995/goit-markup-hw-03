@@ -26,11 +26,13 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .header-page {
   border-bottom: 1px solid #e7e9fc;
 }
-#header-container {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -210,34 +212,29 @@ img {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 120px;
+
   margin-bottom: 72px;
 }
 .team-list {
   list-style: none;
   display: flex;
 
-  padding-bottom: 120px;
   gap: 24px;
   padding-left: 0;
 }
 .team-list-item {
   background-color: #ffffff;
-  display: flex;
-  align-items: center;
+
   justify-content: space-between;
   flex-direction: column;
 
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   gap: 24px;
-  width: calc((100%-72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .team-container {
-  margin-top: 32px;
   padding: 32px 0;
 }
 .team-description {
